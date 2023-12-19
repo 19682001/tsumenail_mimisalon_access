@@ -17,7 +17,8 @@ body{
 .background{
   margin: -10px;
   height: 2000px;
-  background-color: rgba(118,6,6,0.8);
+  /* background-color: rgba(117, 1, 6, 0.85); */
+  background-color: rgba(117, 0, 6, 0.9);
 }
 
 h1{
@@ -31,13 +32,13 @@ h1{
   color: #FFEFD7;
   transform: scaleX(2);
   letter-spacing: 6px;
-  font-size: 100%;
+  font-size: 22px;
   text-align: center;
 }
 
 .line-1{
   margin-top: 0;
-  margin-left: calc(50% - 100px);
+  margin-left: calc(50% - 120px);
   height: 2px;
   background-color: #FFEFD7;
   width: 100%;
@@ -47,7 +48,7 @@ h1{
 .line-2{
    margin-top: 5px;
    height: 2px;
-   margin-left: calc(50% - 70px);
+   margin-left: calc(50% - 80px);
    width: 50px;
    background-color: #FFEFD7;
    text-align: center;
@@ -56,6 +57,16 @@ h1{
 .content{
   max-width: 700px;
   margin: 100px auto 0;
+}
+
+.map {
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
 }
 
 .information{
